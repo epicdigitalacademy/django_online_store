@@ -26,7 +26,7 @@ CSRF_TRUSTED_ORIGINS = ['http://0.0.0.0:8000','http://localhost:8000','https://0
 SECRET_KEY = 'django-insecure-sz)_@sq4wzvgojzl6(@6))m2%xe%lbo+m+_)b8vv7+6om$#j92'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
