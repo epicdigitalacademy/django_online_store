@@ -13,10 +13,6 @@ RUN python3 manage.py loaddata dumped_data.json
 CMD ["manage.py", "runserver", "0.0.0.0:8000"]
 
 FROM builder as dev-envs
-RUN <<EOF
-apk update
-apk add git
-EOF
 
 RUN <<EOF
 addgroup -S docker
