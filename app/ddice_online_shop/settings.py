@@ -17,7 +17,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_DIR = os.path.join(BASE_DIR,"templates")
 
-CSRF_TRUSTED_ORIGINS = ['http://0.0.0.0:8000','http://localhost:8000','https://0.0.0.0:8000','https://localhost:8000','http://store-default.apps-crc.testing','localhost']
+CSRF_TRUSTED_ORIGINS = ['http://0.0.0.0:8000','http://localhost:8000','https://0.0.0.0:8000','https://localhost:8000','http://store-default.apps-crc.testing','http://localhost']
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-sz)_@sq4wzvgojzl6(@6))m2%xe%lbo+m+_)b8vv7+6om$#j92
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://0.0.0.0:8000','http://localhost:8000','https://0.0.0.0:8000','https://localhost:8000','http://store-default.apps-crc.testing']
+ALLOWED_HOSTS = ['http://0.0.0.0:8000','http://localhost:8000','https://0.0.0.0:8000','https://localhost:8000','http://store-default.apps-crc.testing','http://localhost']
 
 
 # Application definition
